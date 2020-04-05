@@ -1,0 +1,109 @@
+<!--
+   Copyright (C) 2015-2019 AOSiP
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<resources>
+  <!-- For Pdn throttle feature -->
+  <java-symbol type="bool" name="config_pdp_retry_for_29_33_55_enabled" />
+
+  <!-- Device keyhandlers -->
+  <java-symbol type="array" name="config_deviceKeyHandlerLibs" />
+  <java-symbol type="array" name="config_deviceKeyHandlerClasses" />
+
+  <!-- Vendor platform signature -->
+  <java-symbol type="array" name="config_vendorPlatformSignatures" />
+
+  <!-- Device has OnePlus haptic motor -->
+  <java-symbol type="bool" name="config_hasOnePlusHapticMotor" />
+
+  <!-- Whether device supports an alt. ambient display -->
+  <java-symbol type="bool" name="config_alt_ambient_display"/>
+
+  <!-- App error dialog -->
+  <java-symbol type="id" name="aerr_copy" />
+  <java-symbol type="string" name="url_copy_success" />
+  <java-symbol type="string" name="url_copy_failed" />
+
+  <!-- Full screen aspect ratio -->
+  <java-symbol type="bool" name="config_haveHigherAspectRatioScreen" />
+  <java-symbol type="dimen" name="config_screenAspectRatio" />
+
+  <!-- Battery light -->
+  <java-symbol type="bool" name="config_intrusiveBatteryLed" />
+  <java-symbol type="bool" name="config_multiColorBatteryLed" />
+  <java-symbol type="bool" name="config_ledCanPulse" />
+  <java-symbol type="bool" name="config_deviceHasLED" />
+
+  <!-- Ambient notification light color -->
+  <java-symbol type="integer" name="config_ambientNotificationDefaultColor" />
+
+  <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->
+  <java-symbol type="bool" name="config_cleanupUnusedFingerprints" />
+
+    <!-- Advanced reboot -->
+  <java-symbol type="string" name="reboot_to_recovery_title" />
+  <java-symbol type="string" name="reboot_to_recovery_message" />
+  <java-symbol type="string" name="reboot_to_bootloader_title" />
+  <java-symbol type="string" name="reboot_to_bootloader_message" />
+  <java-symbol type="string" name="reboot_title" />
+  <java-symbol type="string" name="reboot_message" />
+  <java-symbol type="array" name="config_custom_globalActionsList" />
+
+  <!-- Max visible notification icons -->
+  <java-symbol type="integer" name="config_maxVisibleNotificationIcons" />
+  <java-symbol type="integer" name="config_maxVisibleNotificationIconsWhenDark" />
+
+  <!-- Whether to show a custom view for FOD -->
+  <java-symbol type="bool" name="config_needCustomFODView" />
+
+  <!-- Whether to allow process with media UID to access CameraServiceProxy -->
+  <java-symbol type="bool" name="config_allowMediaUidForCameraServiceProxy" />
+
+  <!-- Package Manager -->
+  <java-symbol type="array" name="config_disabledComponents" />
+  <java-symbol type="array" name="config_forceEnabledComponents" />
+
+  <!-- Custom default wallpaper -->
+  <java-symbol type="drawable" name="custom_default_wallpaper" />
+
+  <!-- Rotation sensor -->
+  <java-symbol type="bool" name="config_useSystemClockforRotationSensor" />
+
+  <java-symbol type="bool" name="config_has_Soli" />
+
+  <!-- Custom permissions list -->
+  <java-symbol type="array" name="config_customPermissionsList" />
+
+  <!-- Pocket Lock -->
+  <java-symbol type="layout" name="pocket_lock_view_layout" />
+  <java-symbol type="id" name="pocket_hint_container" />
+  <java-symbol type="id" name="pocket_hint_image" />
+  <java-symbol type="id" name="pocket_hint_message" />
+
+  <!-- Pocket bridge -->
+  <java-symbol type="string" name="config_pocketBridgeSysfsInpocket" />
+
+  <!-- Whether to use scaled brightness (set -1 to disable) -->
+  <java-symbol type="integer" name="config_useScaleBrightness" />
+
+  <!-- Whether notify fingerprint client of successful cancelled authentication -->
+  <java-symbol type="bool" name="config_notifyClientOnFingerprintCancelSuccess" />
+
+  <!-- Button brightness -->
+  <java-symbol type="bool" name="config_button_brightness_support" />
+  <java-symbol type="integer" name="config_button_brightness_default" />
+
+  <java-symbol type="integer" name="config_sms_authorization_timeout_ms" />
+  <java-symbol type="bool" name="config_sms_authorization_enabled" />
+</resources>
